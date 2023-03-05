@@ -1,0 +1,11 @@
+image:
+  file: Containerfile
+
+tasks:
+  - init: >
+      pip install ipykernel
+
+vscode:
+  extensions:
+    - ms-toolsai.jupyter
+    - ms-python.python
